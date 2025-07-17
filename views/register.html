@@ -2,9 +2,18 @@
     <div class="auth-container">
       <h2> Regístrate en Free Library</h2>
       <form id="registerForm">
-        <input type="text" placeholder="Nombre completo" required />
-        <input type="email" placeholder="Correo electrónico" required />
-        <input type="password" placeholder="Contraseña" required />
+        <div class="input-wrapper">
+          <label for="fullName">Full name</label>
+          <input type="text" placeholder="Your full name" required />
+        </div>
+        <div class="input-wrapper">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your email address" required />
+        </div>
+        <div class="input-wrapper">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Your password" required />
+        </div>
         <button type="submit">Registrarse</button>
         <p>¿Ya tienes cuenta? <a href="#/login">Inicia sesión aquí</a></p>
       </form>

@@ -1,9 +1,15 @@
-    <section class="auth-section">
+<section class="auth-section">
   <div class="auth-container">
     <h2> Inicia sesión en Free Library</h2>
     <form id="loginForm">
-      <input type="email" placeholder="Correo electrónico" required />
-      <input type="password" placeholder="Contraseña" required />
+      <div class="input-wrapper">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email address" required />
+      </div>
+      <div class="input-wrapper">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Your password" required />
+      </div>
       <button type="submit">Ingresar</button>
       <p>¿No tienes cuenta? <a href="#/register">Regístrate aquí</a></p>
     </form>

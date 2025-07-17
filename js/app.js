@@ -88,7 +88,7 @@ async function fetchBooks(query) {
       const bookElement = document.createElement("div");
       bookElement.className = "book-card";
       bookElement.innerHTML = `
-        <img src="${bookCover}" alt="Book Cover">
+        <div class="book-cover"><img src="${bookCover}" alt="Book Cover" /></div>
         <h3>${book.title}</h3>
         <p>${book.author_name ? book.author_name.join(", ") : "Unknown Author"}</p>
       `;
