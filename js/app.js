@@ -1,3 +1,47 @@
+import { routes } from "./routes.js";
+
+const url = "http://localhost:3001/event"; 
+const urlusers = "http://localhost:3001/admin";
+
+// espera que cargue y verifica si existe datos en local Storage
+window.addEventListener("DOMContentLoaded", async (e)=>{
+  e.preventDefault();
+
+  // const login = document.getElementById()
+})
+
+window.addEventListener("click", (e)=>{ // evento llamado popstate para navegar 
+    e.preventDefault();
+    if(e.target.matches("[data-link]")){
+        e.preventDefault();
+        console.log(e.target.getAttribute("href"));
+        
+        browser(e.target.getAttribute("href"));
+}});
+
+
+
+
+//funcion para el enrutamiento 
+
+async function browser(params, id = NaN) {
+    
+    const rot = routes[params];
+    console.log(rot);
+    
+    const html = await fetch(rot).then(response => response.text());
+    document.getElementById('root').innerHTML = html;
+    history.pushState({}, "", params);  // historia
+    //render(params, id); // mostrar en el dom 
+    
+};
+
+
+
+
+
+
+
 // Select DOM elements
 const searchInput = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");

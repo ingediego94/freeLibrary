@@ -1,0 +1,130 @@
+{
+    "event": [
+        {
+        "id": "52",
+        "nameEvent": "tareas-cumple",
+        "observation": "cumpleaños",
+        "dateEvent": "20",
+        "count": "2025-07-31"
+        },
+        {
+        "id": "53",
+        "nameEvent": "tareas",
+        "observation": "cumpleaños",
+        "dateEvent": "12323",
+        "count": "2025-07-17"
+        },
+        {
+        "id": "54",
+        "nameEvent": "tareas",
+        "observation": "cumpleaños",
+        "dateEvent": "12323",
+        "count": "2025-07-17"
+        },
+        {
+        "id": "55",
+        "nameEvent": "tareas",
+        "observation": "cumpleaños",
+        "dateEvent": "12323",
+        "count": "2025-07-17"
+        },
+        {
+        "id": "56",
+        "nameEvent": "tareas",
+        "observation": "cumpleaños",
+        "dateEvent": "12323",
+        "count": "2025-07-17"
+        }
+    ],
+  "admin": [
+        {
+        "userName": "Edison",
+        "phone": "phone",
+        "type": "admin",
+        "email": "edisonalvarez32@gmail.com",
+        "password": "123456",
+        
+        "id": "f472"
+        },
+        {
+        "userName": "wasasuky",
+        "phone": "phone",
+        "type": "user",
+        "email": "z32we@gmail.com",
+        "password": "123456",
+    
+        "id": "4002"
+        },
+        {
+        "userName": "doimmar",
+        "phone": "phone",
+        "password": "123456",
+        "type": "user",
+        "email": "z32sdfa@gmail.com",
+    
+        "id": "ddbb"
+        },
+        {
+        "userName": "Edison",
+        "phone": "phone",
+        "type": "user",
+        "email": "kira@gmail",
+        "password": "987654",
+       
+        "id": "1a30"
+        },
+        {
+        "userName": "Edison",
+        "phone": "phone",
+        "type": "user",
+        "email": "nuevo@gmil.com",
+        "password": "123456",
+       
+        "id": "994c"
+        },
+        {
+        "id": "814d",
+        "userName": "Edison",
+        "phone": "phone",
+        "type": "user",
+        "email": "nuevooooo@gmail.com",
+        "password": "123456",
+       
+        },
+        {
+        "id": "d529",
+        "userName": "Edison",
+        "phone": "phone",
+        "type": "user",
+        "email": "kira@gmil.com",
+        "password": "123456",
+       
+        },
+        {
+        "id": "06f7",
+        "userName": "kiranuevo",
+        "phone": "4654654165",
+        "type": "user",
+        "email": "kiranuevo@gmila.com",
+        "password": "123456",
+       
+        },
+        {
+        "id": "4c02",
+        "userName": "Edison login",
+        "phone": "3125555",
+        "type": "user",
+        "email": "login@gmil.com",
+        "password": "123456",
+        
+        {
+        "id": "3a43",
+        "userName": "edison alvarez ",
+        "phone": "31925404",
+        "type": "user",
+        "email": "rave@gmail.com",
+        "password": "123456",
+       
+        }
+    ]
+}

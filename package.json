@@ -1,0 +1,26 @@
+{
+  "name": "freelibrary",
+  "version": "1.0.0",
+  "description": "- link: https://ingediego94.github.io/freeLibrary/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "json-server --watch db.json --port 3001",
+    "dev":"vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingediego94/freeLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ingediego94/freeLibrary/issues"
+  },
+  "homepage": "https://github.com/ingediego94/freeLibrary#readme",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
